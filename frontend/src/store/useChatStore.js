@@ -53,7 +53,7 @@ export const useChatStore = create((set, get) => ({
 
         // todo: optimize this one later
         socket.on("newMessage", (newMessage) => {
-            const isMessageSentFromSelectedUser = newMessage.senderId === selectedUser;
+            const isMessageSentFromSelectedUser = newMessage.senderId === selectedUser._id;
             if(!isMessageSentFromSelectedUser) return;
             set({
                 messages: [...get().messages, newMessage],
