@@ -16,8 +16,8 @@ const SettingsPage = () => {
       <div className="space-y-6">
         
         <div className="flex flex-col gap-1">
-          <h2 className="text-lg font-semibold">Theme</h2>
-          <p className="text-sm text-base-content/70">Choose a theme for your chat interface</p>
+          <h2 className="text-lg font-semibold">主題顏色</h2>
+          <p className="text-sm text-base-content/70">選擇您喜歡的介面主題</p>
         </div>
 
         <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-2">
@@ -46,7 +46,7 @@ const SettingsPage = () => {
         </div>
 
         {/* Preview Section */}
-        <h3 className="text-lg font-semibold mb-3">Preview</h3>
+        <h3 className="text-lg font-semibold mb-3">預覽</h3>
         <div className="rounded-xl border border-base-300 overflow-hidden bg-base-100 shadow-lg">
           <div className="p-4 bg-base-200">
             <div className="max-w-lg mx-auto">
@@ -56,7 +56,7 @@ const SettingsPage = () => {
                 <div className="px-4 py-3 border-b border-base-300 bg-base-100">
                   <div className="flex items-center gap-3">
                     <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-primary-content font-medium">
-                      J
+                      M
                     </div>
                     <div>
                       <h3 className="font-medium text-sm">Matt Zheng</h3>
