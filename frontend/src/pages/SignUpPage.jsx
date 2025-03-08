@@ -49,15 +49,15 @@ const SignUpPage = () => {
               <div className="size-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
                 <MessageSquare className="size-6 text-primary" />
               </div>
-              <h1 className="text-2xl font-bold mt-2">Create Account</h1>
-              <p className="text-base-content/60">Get started with your free account</p>
+              <h1 className="text-2xl font-bold mt-2">創建你的帳號！</h1>
+              <p className="text-base-content/60">免費申辦帳號開始聊天吧</p>
             </div>
           </div>
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div className="form-control">
               <label className="label">
-                <span className="label-text font-medium">Full Name</span>
+                <span className="label-text font-medium">名字</span>
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -65,7 +65,7 @@ const SignUpPage = () => {
                 </div>
                 <input type="text"
                   className={`input input-bordered w-full pl-10`}
-                  placeholder="John Doe"
+                  placeholder="Matt Zheng"
                   value={formData.fullName}
                   onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                 />
@@ -92,7 +92,7 @@ const SignUpPage = () => {
 
             <div className="form-control">
               <label className="label">
-                <span className="label-text font-medium">Password</span>
+                <span className="label-text font-medium">密碼</span>
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -127,7 +127,7 @@ const SignUpPage = () => {
                   Loading...
                 </>
               ) : (
-                "Create Account"
+                "申辦帳號"
               )}
             </button>
 
@@ -135,9 +135,9 @@ const SignUpPage = () => {
 
           <div className="text-center">
             <p className="text-base-content/60">
-              Already have an account?{" "}
+              已經有帳號了?{" "}
               <Link to="/login" className="link link-primary">
-                Sign in
+                登入
               </Link>
             </p>
           </div>
