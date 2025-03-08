@@ -39,7 +39,7 @@ const LoginPage = () => {
                 <MessageSquare className="w-6 h-6 text-primary" />
               </div>
               <h1 className="text-2xl font-bold mt-2">歡迎回來！</h1>
-              <p className="text-base-content/60">登入你的帳號</p>
+              <p className="text-base-content/60">登入您的帳號</p>
             </div>
           </div>
 
@@ -117,8 +117,8 @@ const LoginPage = () => {
 
       {/* Right Side - Image/Pattern */}
       <AuthImagePattern
-        title={"Welcome back!"}
-        subtitle={"Sign in to continue your conversations and catch up with your messages."}
+        title={"很高興看到您回來!"}
+        subtitle={"登入繼續上次的話題，或是...跟新的朋友聊聊天？"}
       />
     </div>
 

@@ -148,8 +148,8 @@ const SignUpPage = () => {
       {/* right side */}
 
       <AuthImagePattern
-        title="Join our community"
-        subtitle="Connect with friends, share moments, and stay in touch with your loved ones."
+        title="歡迎加入我們的社群！"
+        subtitle="與朋友連繫，分享你的美妙時光。"
 
       />
 
