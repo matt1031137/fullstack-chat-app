@@ -99,7 +99,7 @@ const LoginPage = () => {
                   Loading...
                 </>
               ) : (
-                "Sign in"
+                "登入"
               )}
             </button>
           </form>
